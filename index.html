@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Medium Form</title>
+</head>
+<body>
+    <div class="medium-form-container">
+        <form>
+            <div>
+                <h3 class="select-gf">Select gift frequency</h3>
+
+                <div class="button-cover">
+                    <div class="button b2" id="button-10">
+                        <input type="checkbox" class="checkbox" />
+                            <div class="knobs">
+                                <span>Monthly</span>
+                            </div>
+                        <div class="layer"></div>
+                    </div>
+                </div>
+                
+            <div class="cash-amount">
+                <h3 class="cash-amount-title">Select amount</h3>
+                <div class="btns">
+                    <div id="btn1" class="amount-btn">$12</div>
+                    <div id="btn2" class="amount-btn">$30</div>
+                    <div id="btn3" class="amount-btn">$40</div>
+                    <div id="btn4" class="amount-btn">$50</div>
+                    <div id="btn5" class="amount-btn">$60</div>
+                </div>
+            </div>
+
+            <div class="checkmark">
+                <input class="mark" type="checkbox"/>
+                <label>Yes, I'll generously add $0.30 each month to cover the transaction fees</label> 
+            </div>
+
+            <div class="inputs">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required/>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required/>
+                <a href="#" class="honor">Give in honor to another person</a>
+            </div>
+
+            <div class="submit">
+                <button type="submit" class="donate-btn">Donate now</button>
+                <h4>By donating, you agree to our <a href="#">terms of service</a> and <a href="#">privacy policy</a>.</h4>
+            </div>
+        </form>
+    </div>
+    <script src="App.js" type="text/javascript"></script>
+</body>
+</html>
